@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/txt_20"
+            android:layout_marginTop="@dimen/txt_20"
+            android:layout_marginRight="@dimen/txt_20"
+            android:layout_marginBottom="@dimen/txt_10"
+            android:background="@drawable/jobs_bg"
+            android:orientation="vertical">
+
+            <VideoView
+                android:id="@+id/videoview"
+                android:layout_width="match_parent"
+                android:layout_height="180dp" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/txt_20"
+            android:layout_marginTop="@dimen/txt_10"
+            android:layout_marginRight="@dimen/txt_20"
+            android:background="@drawable/jobs_bg"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/txt_10"
+                android:layout_marginRight="@dimen/txt_10"
+                android:padding="5dp"
+                android:text="Video Description"
+                android:textColor="@color/black"
+                android:textSize="@dimen/txt_15"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/txt_10"
+                android:layout_marginRight="@dimen/txt_10"
+                android:layout_marginBottom="@dimen/txt_10"
+                android:text="@string/dummytext"
+                android:textSize="@dimen/txt_12" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+

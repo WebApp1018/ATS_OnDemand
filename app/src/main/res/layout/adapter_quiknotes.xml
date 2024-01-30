@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="2dp"
+    android:theme="@style/WhiteCheck">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/txt_10"
+        android:layout_marginRight="@dimen/txt_10"
+        android:layout_marginBottom="@dimen/txt_15"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/txt_10"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="@dimen/txt_10"
+                android:layout_gravity="center"
+                android:padding="1dp"
+                android:src="@drawable/circle_blue"
+                android:tint="@color/graytext" />
+
+            <TextView
+                android:id="@+id/txt_notestitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/txt_10"
+                android:text="Note 1" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/lesstext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/txt_10"
+            android:layout_marginTop="@dimen/txt_10"
+            android:layout_marginRight="10dp"
+            android:text="@string/description"
+            android:textColor="@color/graytext"
+            android:textSize="@dimen/txt_14" />
+
+        <TextView
+            android:id="@+id/txt_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/txt_10"
+            android:layout_marginTop="@dimen/txt_10"
+            android:layout_marginRight="10dp"
+            android:text="2021"
+            android:gravity="right"
+            android:textSize="@dimen/txt_14" />
+
+    </LinearLayout>
+
+</LinearLayout>

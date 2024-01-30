@@ -1,0 +1,127 @@
+[
+    {
+        "name": "(UTC-12:00) Dateline Standard Time",
+        "abbr": "DST",
+        "offset": "-12"
+    },
+    {
+        "name": "(UTC-11:00) Coordinated Universal Time-11",
+        "abbr": "U",
+        "offset": "-11"
+    },
+    {
+        "name": "(UTC-10:00) Hawaiian Standard Time",
+        "abbr": "HST",
+        "offset": "-10"
+    },
+    {
+        "name": "(UTC-9:00) Alaskan Standard Time",
+        "abbr": "AST",
+        "offset": "-9"
+    },
+    {
+        "name": "(UTC-08:00) Pacific Standard Time",
+        "abbr": "PST",
+        "offset": "-8"
+    },
+    {
+        "name": "(UTC-07:00) Mountain Standard Time",
+        "abbr": "MST",
+        "offset": "-7"
+    },
+    {
+        "name": "(UTC-06:00) Central Standard Time",
+        "abbr": "CST",
+        "offset": "-6"
+    },
+    {
+        "name": "(UTC-05:00) Eastern Standard Time",
+        "abbr": "EST",
+        "offset": "-5"
+    },
+    {
+        "name": "(UTC-04:00) Atlantic Standard Time",
+        "abbr": "AST",
+        "offset": "-4"
+    },
+    {
+        "name": "(UTC-03:00) Greenland Standard Time",
+        "abbr": "GST",
+        "offset": "-3"
+    },
+    {
+        "name": "(UTC-02:00) Mid-Atlantic Standard Time",
+        "abbr": "MST",
+        "offset": "-2"
+    },
+    {
+        "name": "(UTC-01:00) Central African Time",
+        "abbr": "AST",
+        "offset": "-1"
+    },
+    {
+        "name": "(UTC) Coordinated Universal Time",
+        "abbr": "CUT",
+        "offset": "0"
+    },
+    {
+        "name": "(UTC+01:00) Central Europe Standard Time",
+        "abbr": "CEST",
+        "offset": "+1"
+    },
+    {
+        "name": "(UTC+02:00) Middle East Standard Time",
+        "abbr": "MEST",
+        "offset": "+2"
+    },
+    {
+        "name": "(UTC+03:00) E. Africa Standard Time",
+        "abbr": "EAST",
+        "offset": "+3"
+    },
+    {
+        "name": "(UTC+04:00) Arabian Standard Time",
+        "abbr": "AST",
+        "offset": "+4"
+    },
+    {
+        "name": "(UTC+05:00) West Asia Standard Time",
+        "abbr": "WAST",
+        "offset": "+5"
+    },
+    {
+        "name": "(UTC+06:00) Central Asia Standard Time",
+        "abbr": "CAST",
+        "offset": "+6"
+    },
+    {
+        "name": "(UTC+07:00) SE Asia Standard Time",
+        "abbr": "SAST",
+        "offset": "+7"
+    },
+    {
+        "name": "(UTC+08:00) North Asia Standard Time",
+        "abbr": "NAST",
+        "offset": "+8"
+    },
+    {
+        "name": "(UTC+09:00) North Asia East Standard Time",
+        "abbr": "NAEST",
+        "offset": "+9"
+    },
+    {
+        "name": "(UTC+10:00) West Pacific Standard Time",
+        "abbr": "WPST",
+        "offset": "+10"
+    },
+    {
+        "name": "(UTC+11:00) Central Pacific Standard Time",
+        "abbr": "CPST",
+        "offset": "+11"
+    },
+    {
+        "name": "(UTC+12:00) Coordinated Universal Time+12",
+        "abbr": "U",
+        "offset": "+12"
+    }
+]

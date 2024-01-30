@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resource"
+        android:textSize="@dimen/txt_12" />
+
+    <segmented_control.widget.custom.android.com.segmentedcontrol.SegmentedControl
+        android:id="@+id/segmented_control"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:distributeEvenly="true"
+        app:textVerticalPadding="6dp"
+        app:selectedBackgroundColor="@color/app_theme_color"
+        app:unSelectedBackgroundColor="@color/graytext"
+        app:radius="12dp"
+        app:segments="@array/resources" />
+</LinearLayout>

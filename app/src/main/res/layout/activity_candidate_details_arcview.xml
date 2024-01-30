@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_colortransparent"
+    android:orientation="vertical"
+    tools:context=".activities.candidate.CandidateDetailsArcviewActivity">
+
+    <RelativeLayout
+        android:id="@+id/arclayout_ly"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:gravity="top"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/center_icon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="100dp"
+            android:layout_marginRight="7dp"
+            android:src="@drawable/menu_3" />
+
+        <com.ogaclejapan.arclayout.ArcLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_gravity="top"
+            android:layout_marginRight="7dp"
+            app:arc_axisRadius="100dp"
+            app:arc_origin="right"
+            app:arc_radius="100dp"
+            app:arc_reverseAngle="true">
+
+            <RelativeLayout
+                android:id="@+id/calendar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="2dp"
+                android:orientation="vertical"
+                app:arc_angle="30">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/gray_circle"
+                    android:padding="7dp"
+                    android:src="@drawable/calendar" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/eeo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="2dp"
+                android:orientation="vertical"
+                app:arc_angle="30">
+
+                <TextView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/gray_circle"
+                    android:gravity="center"
+                    android:text="EEO"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/txt_12" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/chat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="2dp"
+                android:orientation="vertical"
+                app:arc_angle="30">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/gray_circle"
+                    android:padding="7dp"
+                    android:src="@drawable/comment" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/notepad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="2dp"
+                android:orientation="vertical"
+                app:arc_angle="30">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/gray_circle"
+                    android:padding="7dp"
+                    android:src="@drawable/notepad" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="2dp"
+                android:orientation="vertical"
+                app:arc_angle="30">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/gray_circle"
+                    android:padding="7dp"
+                    android:src="@drawable/email" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/share"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="2dp"
+                android:orientation="vertical"
+                app:arc_angle="30">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/gray_circle"
+                    android:padding="7dp"
+                    android:src="@drawable/share" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/man"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="2dp"
+                android:orientation="vertical"
+                app:arc_angle="30">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/gray_circle"
+                    android:padding="7dp"
+                    android:src="@drawable/man" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/path"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="2dp"
+                android:orientation="vertical"
+                app:arc_angle="30">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/gray_circle"
+                    android:padding="7dp"
+                    android:src="@drawable/path" />
+
+            </RelativeLayout>
+
+        </com.ogaclejapan.arclayout.ArcLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

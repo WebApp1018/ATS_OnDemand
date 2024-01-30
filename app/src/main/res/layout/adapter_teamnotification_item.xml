@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/lyt_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/txt_10"
+        android:layout_marginRight="@dimen/txt_10"
+        android:layout_marginBottom="@dimen/txt_10"
+        android:background="@drawable/jobs_bg"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/txt_10"
+            android:layout_marginTop="@dimen/txt_10"
+            android:layout_marginRight="@dimen/txt_15"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/txv_title"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_weight="2.2"
+                android:text="HR Manager"
+                android:textColor="@color/textdarkgray"
+                android:textSize="@dimen/txt_15"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/txt_content"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="@dimen/txt_15"
+            android:layout_marginRight="@dimen/txt_15"
+            android:text="text"
+            android:maxLines="3"
+            android:layout_marginTop="5dp"
+            android:textSize="@dimen/txt_14" />
+        <TextView
+            android:id="@+id/txv_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/txt_10"
+            android:layout_marginRight="@dimen/txt_10"
+            android:text="Completed By: Default: 10days"
+            android:gravity="right"
+            android:paddingRight="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:textSize="@dimen/txt_12" />
+    </LinearLayout>
+
+</LinearLayout>

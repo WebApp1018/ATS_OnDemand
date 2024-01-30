@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include layout="@layout/header_back_two" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/txt_15"
+            android:layout_marginTop="@dimen/txt_20"
+            android:layout_marginRight="@dimen/txt_15"
+            android:background="@drawable/jobs_bg"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/txt_10"
+                android:gravity="center"
+                android:text="Summary Job Report"
+                android:textColor="@color/black"
+                android:textSize="@dimen/txt_16" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="3dp"
+                android:gravity="center"
+                android:text="7/1/2018 - 7/31/2018"
+                android:textColor="@color/graybutton"
+                android:textSize="@dimen/txt_14" />
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycleHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/txt_15"
+            android:layout_marginTop="@dimen/txt_20"
+            android:layout_marginRight="@dimen/txt_15"
+            android:layout_marginBottom="@dimen/txt_10"
+            android:orientation="horizontal" />
+
+    </LinearLayout>
+
+</LinearLayout>

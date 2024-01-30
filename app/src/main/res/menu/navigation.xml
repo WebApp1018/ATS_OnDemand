@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_jobs"
+        android:icon="@drawable/icon_jobs"
+        android:title="Jobs" />
+
+    <item
+        android:id="@+id/navigation_candidates"
+        android:icon="@drawable/candidate_icon"
+        android:title="Candidates" />
+
+    <item
+        android:id="@+id/navigation_schedule"
+        android:icon="@drawable/icon_schedule"
+        android:visible="false"
+        android:title="Schedule" />
+
+    <item
+        android:id="@+id/navigation_communication"
+        android:icon="@drawable/envelope"
+        android:visible="false"
+        android:title="Communication" />
+
+    <item
+        android:id="@+id/navigation_settings"
+        android:icon="@drawable/icon_notification"
+        android:title="Notification" />
+
+</menu>

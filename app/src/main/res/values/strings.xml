@@ -1,0 +1,305 @@
+<resources>
+    <string name="app_name">ReadyATS</string>
+    <string name="dash">-</string>
+    <string name="google_places_key">AIzaSyAgpYpX3mxcLhNAxVyd80QonjLUYTn14GE</string>
+    <string name="google_maps_key">AIzaSyCC9_42C06WFl4gIXrjqeZ9oMS5X-G2DOQ</string>
+
+    <string-array name="list">
+
+        <item>Jobs</item>
+        <item>Candidates</item>
+    </string-array>
+    <string-array name="mainmenu_small">
+
+        <item>Home</item>
+        <item>Saved</item>
+        <item>Jobs</item>
+        <item>Candidates</item>
+        <item>Schedule</item>
+        <item>Help &amp; Training</item>
+        <item>Onboarding</item>
+        <item>Reports</item>
+        <item>Support</item>
+        <item>Settings</item>
+    </string-array>
+    <string-array name="location">
+
+        <item>Madrid</item>
+        <item>Barcelona</item>
+        <item>Valencia</item>
+        <item>Seville</item>
+        <item>Zaragoza</item>
+        <item>Malaga</item>
+        <item>Murcia</item>
+        <item>Palma</item>
+
+    </string-array>
+
+
+    <string-array name="subject">
+        <item>Subject Messages</item>
+        <item>Arts and Humanities</item>
+        <item>Computer Science</item>
+        <item>Data Science</item>
+
+        <item>Information Technology</item>
+        <item>Life Science</item>
+        <item>Math and Logic</item>
+        <item>Personal Development</item>
+        <item>Physical Science and Engineering</item>
+
+
+    </string-array>
+
+    <string-array name="days">
+
+        <item>EveryDay</item>
+        <item>Mon-Fri</item>
+        <item>Sat-Sun</item>
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+
+    </string-array>
+
+    <string-array name="resources">
+        <item>America Job Exchange</item>
+        <item>Brassring</item>
+        <item>Careerbuilder</item>
+        <item>Careerbuilder</item>
+        <item>Free Job board:Indeed|US.jobs(JCLNX)|Ziprecruiter</item>
+        <item>Linkdin(Free Non-Sponsored Jobs)</item>
+    </string-array>
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="action_week_view">Week view</string>
+    <string name="action_day_view">Day view</string>
+    <string name="action_three_day_view">3 day view</string>
+    <string name="action_today">Today</string>
+    <string name="send_reference_title">Send Reference Check</string>
+    <string name="send_reference_content">This is the letter your candidate will receive to fill out their references. Please review and edit as necessary</string>
+    <string name="str_back_one_more_end">Pressing once more will terminate</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="viewGithub">View on GitHub</string>
+    <string name="reportProblem">Problem Report</string>
+    <string name="viewWebsite">Developer Website</string>
+
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="search">Search</string>
+    <string name="stats">Stats</string>
+    <string name="moved">Moved</string>
+    <string name="newcandidates">New Candidates</string>
+    <string name="todayschedule">Today Schedule</string>
+    <string name="savedjobs">Saved Job</string>
+    <string name="chart">Chart</string>
+    <string name="tap_to_reload">Tap to reload</string>
+    <string name="YEAR">YEAR</string>
+    <string name="MONTH">MONTH</string>
+    <string name="WEEK">WEEK</string>
+    <string name="email">Email</string>
+    <string name="phoneno">Phone Number</string>
+    <string name="webaddress">Web Address</string>
+    <string name="jobowner">Job Owner</string>
+    <string name="location">Location</string>
+    <string name="status">Status</string>
+    <string name="clone">Clone</string>
+    <string name="deactivate">Deactivate</string>
+    <string name="close">Close</string>
+    <string name="delete">Remove</string>
+    <string name="experiencerequired">Experience Required:</string>
+    <string name="department">Department:</string>
+    <string name="jobtype">Job Type:</string>
+    <string name="salary">Salary:</string>
+    <string name="HM">HM:</string>
+    <string name="jobhistory">Job History</string>
+    <string name="jobdescription">Job Description</string>
+    <string name="required_experience">Preferred Qualifications</string>
+    <string name="about_job">About the Job</string>
+    <string name="job_recruit_flow">Job Recruit Flow</string>
+    <string name="customfields">Custom Fields</string>
+    <string name="quicknote">Add Quick Note</string>
+    <string name="enterurnotehere">Enter your note here</string>
+    <string name="save">Save</string>
+    <string name="hiringmanager">Hiring Manager</string>
+    <string name="recruiter">Recruiter</string>
+    <string name="agency">Agency</string>
+    <string name="new1">New</string>
+    <string name="interview">Interview</string>
+    <string name="stage">Stage:</string>
+    <string name="source">Source:</string>
+    <string name="job_title">Job Title:</string>
+    <string name="recruit_flow">Recruit Flow:</string>
+    <string name="phoneinterview">Phone Interview</string>
+    <string name="futureinterest">Future Interest</string>
+    <string name="videointerview">Video Interview</string>
+    <string name="offerapproval">Offer Approval</string>
+    <string name="currentstage">Current Stage</string>
+    <string name="progress">Progress</string>
+    <string name="seemore">See More</string>
+    <string name="SMS">SMS</string>
+    <string name="candidateschedule_one">Candidate \n Schedule</string>
+    <string name="editprofile">Edit Profile</string>
+    <string name="terms">Terms &amp; Conditions</string>
+    <string name="privacy">Privacy</string>
+    <string name="timezone">Timezone</string>
+    <string name="language">Language</string>
+    <string name="candidatemsg">Candidate Message</string>
+    <string name="tasksetup">Task Setup</string>
+    <string name="comment">Comment</string>
+    <string name="offer">Offer</string>
+    <string name="employeereferrals">Employee Referrals</string>
+    <string name="newcandidate">New Candidate</string>
+    <string name="onboardingdoc">On Boarding Document</string>
+    <string name="details">Details</string>
+    <string name="name">Name</string>
+    <string name="address">Address</string>
+    <string name="update">Update</string>
+    <string name="notifications">Notifications</string>
+    <string name="candidates">Candidates</string>
+
+    <string name="internet">No internet connection</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="logout_description">Do you want to log out?</string>
+    <string name="delete_interview">Are you sure you want to delete this interview</string>
+    <string name="finish_app">Do you want to close app?</string>
+    <string name="post_ziprecruiter">Are you sure you want to post this job on Zip Recruiter?</string>
+    <string name="post_indeed">Are you sure you want to post this job on Indeed?</string>
+    <string name="post_recruiter">Are you sure you want to post this job on Recruiter?</string>
+    <string name="clone_job">Are you sure you want to clone this Job ?</string>
+    <string name="deactivate_job">Are you sure you want to deactivate this Job ?</string>
+    <string name="close_job">Are you sure you want to close this Job ?</string>
+    <string name="remove_job">Are you sure you want to remove this Job ?</string>
+    <string name="dummytext"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s</string>
+    <string name="description">You will need to be able speak in a friendly way to customers and potential customers</string>
+    <string name="all_candiates">All Candidates</string>
+    <string name="job_board">Job Boards</string>
+    <string name="future_potential">Future Potential</string>
+    <string name="referral">Referral</string>
+    <string name="career">Career</string>
+    <string name="employee">Employee</string>
+    <string name="delete_skill_tag">Skill tag removed</string>
+    <string name="add_note">Add quick Notes/Skills tag</string>
+    <string name="edit_note">Edit quick Notes/Skills tag</string>
+    <string name="add">Add</string>
+    <string name="skill_label">Skill Label</string>
+    <string name="score">Score</string>
+    <string name="color">Color</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="ethancity">Ethancity</string>
+    <string name="disablity">Disability</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="protect_veteran">Protected Veteran</string>
+    <string name="vetaran">Vetaran</string>
+    <string name="source_">Source</string>
+    <string name="disposition">Disposition</string>
+    <string name="job_select">Jobs selection</string>
+    <string name="job_type">Jobs Type</string>
+    <string name="assign_type">Stage</string>
+    <string name="submit">Submit</string>
+    <string name="questions">Questions</string>
+    <string name="history">History</string>
+    <string name="applied_job">Applied Jobs</string>
+    <string name="type">Type</string>
+    <string name="add_date">Add Date</string>
+    <string name="message">Message</string>
+    <string name="add_comment">ADD COMMENT</string>
+    <string name="private_">Private</string>
+    <string name="rank">Rank</string>
+    <string name="active">Active</string>
+    <string name="inactive">Inactive</string>
+    <string name="closed">Closed</string>
+    <string name="assign">Assign</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="back">Back</string>
+    <string name="employee_data">Employee Data</string>
+    <string name="team_notification">Team Notification</string>
+    <string name="document">Document</string>
+    <string name="tasks">Tasks</string>
+    <string name="preview_send">Preview &amp; Send</string>
+    <string name="employee_content">Please review all the required fields and update accrodingly</string>
+    <string name="candidate_email">Candidate Email</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="company_email">Company Email</string>
+    <string name="altenate_email">Alternate Email</string>
+    <string name="salary_currency">Salary Currency</string>
+    <string name="salary_type">Salary Type</string>
+    <string name="annual">Annual</string>
+    <string name="hourly">Hourly</string>
+    <string name="select_currency">Please select currency</string>
+    <string name="current_supervisor">Current Supervisor</string>
+    <string name="primary_phonenumber">Primary Phone Number</string>
+    <string name="primary_workernumber">Primary Worker Number</string>
+    <string name="job_location">Job Location</string>
+    <string name="job_state">Job State</string>
+    <string name="employee_id">Employee ID</string>
+    <string name="program_name">Program Name</string>
+    <string name="program_start_date">Program Start Date</string>
+    <string name="program_end_date">Program End Date</string>
+    <string name="bonus">Bonus</string>
+    <string name="location_name">Location Name* (Public)</string>
+    <string name="additional_information">Additional Information (Public)</string>
+    <string name="car_budget">Car Budget* (Public)</string>
+    <string name="onboarding_complete_date">Onboarding Complete Date*</string>
+    <string name="preview_document">Preview Document</string>
+    <string name="assign_document">Assign Document</string>
+    <string name="preview_email_content">User Credentials will be appended to the below email template.</string>
+    <string name="complete_by"><b>Completed By: Default: </b></string>
+    <string name="send_task">Send Task</string>
+    <string name="send_to">Send To:</string>
+    <string name="delete_document">Do you want to remove this assign document?</string>
+    <string name="complete_in"><b>Complete in</b></string>
+    <string name="days_due"><b>Day(S) Due on</b></string>
+    <string name="finish">Finish</string>
+    <string name="job_static">Job Statistics</string>
+    <string name="job_chart">Job Chart</string>
+    <string name="enter_date">Enter duration</string>
+    <string name="active_job">Active Jobs</string>
+    <string name="inactive_job">Inactive Jobs</string>
+    <string name="closed_job">Closed Jobs</string>
+    <string name="approved_job">Approved Job</string>
+    <string name="potential">Potential Job</string>
+    <string name="carrer_hosting">Career Hosting</string>
+    <string name="indeed">Indeed</string>
+    <string name="manual">Manual</string>
+    <string name="perless">Pereless</string>
+    <string name="solt_associates">Solt &amp; Associates</string>
+    <string name="start_date">Start Date:</string>
+    <string name="hire_date">Hire Date:</string>
+    <string name="scorecard_title">Thoughts on this candidate</string>
+    <string name="though_feedback">Though/Feedback(Optional)</string>
+    <string name="score_hint">Great fit for this position</string>
+    <string name="overalling_rating">Overall Rating?</string>
+    <string name="save_scorecard">Save Scorecards</string>
+    <string name="team_score_card">Team Scorecards</string>
+    <string name="submitted_by">Submitted By:</string>
+    <string name="no_scorecard">The job not linked with a Scorecard</string>
+    <string name="success_update">Candidate Scorecard updated Successfully!</string>
+    <string name="vert_good">Very Good</string>
+    <string name="good">Good</string>
+    <string name="neutral">Neutral</string>
+    <string name="poor">Poor</string>
+    <string name="very_poor">Very Poor</string>
+    <string name="show_feedback">Show Scorecard Feedback</string>
+    <string name="scorecard_feedback"> Scorecard Feedback</string>
+    <string name="non_job">The JOB is not exist</string>
+    <string name="non_candidate">The Candidate is not exist</string>
+    <string name="non_userpreferce">The User Preference is not exist</string>
+    <string name="confirm_schedule">Do you want to confirm this schedule?</string>
+    <string name="date">Date</string>
+    <string name="template">Template</string>
+
+</resources>

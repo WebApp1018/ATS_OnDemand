@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/txv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/overalling_rating"
+            android:textAlignment="center"
+            android:textColor="@color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="@dimen/txt_10"
+            android:background="@drawable/btn_outline_red"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"
+            android:weightSum="2.5">
+
+            <ImageView
+                android:id="@+id/img_double_dislike"
+                android:layout_width="25dp"
+                android:layout_height="40dp"
+                android:layout_weight="0.5"
+                android:background="@drawable/bg_unselect_gray_left"
+                android:padding="10dp"
+                android:src="@drawable/doubledislike"
+                app:tint="@color/colorlightred" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:background="@color/redbutton" />
+
+            <ImageView
+                android:id="@+id/img_dislike"
+                android:layout_width="25dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_weight="0.5"
+                android:background="@drawable/btn_layout_red_unselect"
+                android:padding="@dimen/txt_10"
+                android:src="@drawable/dislike_one"
+                app:tint="@color/colorlightred" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:background="@color/redbutton" />
+            <ImageView
+                android:id="@+id/img_none"
+                android:layout_width="25dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_weight="0.5"
+                android:background="@drawable/btn_layout_red_unselect"
+                android:padding="@dimen/txt_10"
+                android:src="@drawable/gray_circle" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:background="@color/redbutton" />
+            <ImageView
+                android:id="@+id/img_like"
+                android:layout_width="25dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_weight="0.5"
+                android:background="@drawable/btn_layout_red_unselect"
+                android:padding="@dimen/txt_10"
+                android:src="@drawable/like_one"
+                app:tint="@color/colorlightred" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:background="@color/redbutton" />
+
+            <ImageView
+                android:id="@+id/img_double_like"
+                android:layout_width="25dp"
+                android:layout_height="40dp"
+                android:layout_weight="0.5"
+                android:background="@drawable/btn_layout_red_unselect"
+                android:padding="@dimen/txt_10"
+                android:src="@drawable/doublelike"
+                app:tint="@color/colorlightred" />
+        </LinearLayout>
+        <EditText
+            android:id="@+id/edit_score"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:gravity="top"
+            android:singleLine="true"
+            android:background="@drawable/btn_bg_white_fill"
+            android:visibility="gone"
+            android:hint="@string/though_feedback"
+            android:textSize="13sp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

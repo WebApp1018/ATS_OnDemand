@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/step_1_dest"
+        android:title="1" />
+
+    <item android:id="@+id/step_2_dest"
+        android:title="2" />
+
+    <item android:id="@+id/step_3_dest"
+        android:title="3" />
+    <item android:id="@+id/step_4_dest"
+        android:title="4" />
+
+    <item android:id="@+id/step_5_dest"
+        android:title="5" />
+
+    <item android:id="@+id/step_6_dest"
+        android:title="6" />
+    <item android:id="@+id/step_7_dest"
+        android:title="7" />
+
+    <item android:id="@+id/step_8_dest"
+        android:title="8" />
+
+    <item android:id="@+id/step_9_dest"
+        android:title="9" />
+</menu>

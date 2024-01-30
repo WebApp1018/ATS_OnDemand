@@ -1,0 +1,3 @@
+rootProject.name = "Pereless"
+include ':app'
+include ':htmleditor'

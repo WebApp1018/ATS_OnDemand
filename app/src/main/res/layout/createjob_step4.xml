@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Job Category"
+            android:textSize="@dimen/txt_12" />
+
+        <com.jaredrummler.materialspinner.MaterialSpinner
+            android:id="@+id/spinner_jobcategory"
+            android:layout_width="match_parent"
+            app:ms_text_color="@color/black"
+            android:hint="Please select job category"
+            android:layout_marginLeft="-20dp"
+            android:background="@drawable/btn_outline_black"
+            android:layout_height="wrap_content"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/graytext" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sub Category"
+            android:textSize="@dimen/txt_12" />
+
+        <com.jaredrummler.materialspinner.MaterialSpinner
+            android:id="@+id/spinner_subcategory"
+            android:layout_width="match_parent"
+            app:ms_text_color="@color/black"
+            android:hint="Please select subcategory"
+            android:layout_marginLeft="-20dp"
+            android:background="@drawable/btn_outline_black"
+            android:layout_height="wrap_content"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/graytext" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EEO job category"
+            android:textSize="@dimen/txt_12" />
+
+        <com.jaredrummler.materialspinner.MaterialSpinner
+            android:id="@+id/spinner_eeo_category"
+            android:layout_width="match_parent"
+            app:ms_text_color="@color/black"
+            android:hint="Please select EEO job category"
+            android:layout_marginLeft="-20dp"
+            android:background="@drawable/btn_outline_black"
+            android:layout_height="wrap_content"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/graytext" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Job State"
+            android:textSize="@dimen/txt_12" />
+
+        <com.jaredrummler.materialspinner.MaterialSpinner
+            android:id="@+id/spinner_job_state"
+            android:layout_width="match_parent"
+            app:ms_text_color="@color/black"
+            android:hint="Please select job state"
+            android:layout_marginLeft="-20dp"
+            android:background="@drawable/btn_outline_black"
+            android:layout_height="wrap_content"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/graytext" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Job Type"
+            android:textSize="@dimen/txt_12" />
+
+        <com.jaredrummler.materialspinner.MaterialSpinner
+            android:id="@+id/spinner_job_type"
+            android:layout_width="match_parent"
+            app:ms_text_color="@color/black"
+            android:hint="Please select job type"
+            android:layout_marginLeft="-20dp"
+            android:background="@drawable/btn_outline_black"
+            android:layout_height="wrap_content"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/graytext" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Number of Openings"
+            android:textSize="@dimen/txt_12" />
+
+        <EditText
+            android:id="@+id/edt_openning"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dp"
+            android:background="@android:color/transparent"
+            android:inputType="number"
+            android:hint="Please input number of openings"
+            android:textColor="@color/black"
+            android:textColorHint="@color/graytext"
+            android:textCursorDrawable="@drawable/cursor_primary"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/txt_10"
+            android:background="@color/graytext" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Job Priority"
+            android:textSize="@dimen/txt_12" />
+        <RadioGroup
+            android:id="@+id/group_jobpriority"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/radio_low"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/colorPrimary"
+                android:text="Low"/>
+            <RadioButton
+                android:id="@+id/radio_normal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:buttonTint="@color/colorPrimary"
+                android:text="Normal"/>
+            <RadioButton
+                android:id="@+id/radio_high"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:buttonTint="@color/colorPrimary"
+                android:text="High"/>
+
+        </RadioGroup>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Confidential"
+            android:textSize="@dimen/txt_12" />
+        <RadioGroup
+            android:id="@+id/group_confidential"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/radio_confidential_normal"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:buttonTint="@color/colorPrimary"
+                android:layout_height="wrap_content"
+                android:text="Normal"/>
+            <RadioButton
+                android:id="@+id/radio_total"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/colorPrimary"
+                android:layout_marginLeft="10dp"
+                android:text="Total Confidential"/>
+            <RadioButton
+                android:id="@+id/radio_intenal"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/colorPrimary"
+                android:layout_marginLeft="10dp"
+                android:text="Internal Confidential"/>
+
+        </RadioGroup>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Language"
+            android:textSize="@dimen/txt_12" />
+
+        <com.jaredrummler.materialspinner.MaterialSpinner
+            android:id="@+id/spinner_language"
+            android:layout_width="match_parent"
+            app:ms_text_color="@color/black"
+            android:hint="Please select one"
+            android:layout_marginLeft="-20dp"
+            android:background="@drawable/btn_outline_black"
+            android:layout_height="wrap_content"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/graytext" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Job Level"
+            android:textSize="@dimen/txt_12" />
+
+        <com.jaredrummler.materialspinner.MaterialSpinner
+            android:id="@+id/spinner_level"
+            android:layout_width="match_parent"
+            app:ms_text_color="@color/black"
+            android:hint="Please select one"
+            android:layout_marginLeft="-20dp"
+            android:background="@drawable/btn_outline_black"
+            android:layout_height="wrap_content"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/graytext" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Year of Experience"
+            android:textSize="@dimen/txt_12" />
+
+        <com.jaredrummler.materialspinner.MaterialSpinner
+            android:id="@+id/spinner_experience"
+            android:layout_width="match_parent"
+            app:ms_text_color="@color/black"
+            android:hint="Please select one"
+            android:layout_marginLeft="-20dp"
+            android:background="@drawable/btn_outline_black"
+            android:layout_height="wrap_content"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/graytext" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Level of Education"
+            android:textSize="@dimen/txt_12" />
+
+        <com.jaredrummler.materialspinner.MaterialSpinner
+            android:id="@+id/spinner_education"
+            android:layout_width="match_parent"
+            app:ms_text_color="@color/black"
+            android:hint="Please select one"
+            android:layout_marginLeft="-20dp"
+            android:background="@drawable/btn_outline_black"
+            android:layout_height="wrap_content"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/graytext" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Job Duration"
+            android:textSize="@dimen/txt_12" />
+
+        <com.jaredrummler.materialspinner.MaterialSpinner
+            android:id="@+id/spinner_duration"
+            android:layout_width="match_parent"
+            app:ms_text_color="@color/black"
+            android:hint="Please select one"
+            android:layout_marginLeft="-20dp"
+            android:background="@drawable/btn_outline_black"
+            android:layout_height="wrap_content"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/graytext" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Travel Frequence"
+            android:textSize="@dimen/txt_12" />
+
+        <com.jaredrummler.materialspinner.MaterialSpinner
+            android:id="@+id/spinner_frequence"
+            android:layout_width="match_parent"
+            app:ms_text_color="@color/black"
+            android:hint="Please select one"
+            android:layout_marginLeft="-20dp"
+            android:background="@drawable/btn_outline_black"
+            android:layout_height="wrap_content"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/graytext" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Internal Comment and Notes"
+            android:textSize="@dimen/txt_12" />
+
+        <EditText
+            android:id="@+id/edt_comment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dp"
+            android:background="@android:color/transparent"
+            android:inputType="text"
+            android:hint="Please input number of openings"
+            android:textColor="@color/black"
+            android:textColorHint="@color/graytext"
+            android:textCursorDrawable="@drawable/cursor_primary"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/txt_10"
+            android:background="@color/graytext" />
+    </LinearLayout>
+</LinearLayout>

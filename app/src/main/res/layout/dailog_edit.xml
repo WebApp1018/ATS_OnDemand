@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_dailog"
+    android:orientation="vertical"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/bg_dialog_top">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="Edit"
+            android:textColor="@color/colorWhite"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/curverdrawable"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/txv_custom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/edit_bg"
+            android:gravity="center"
+            android:hint="Custom Text Here"
+            android:inputType="text"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/txv_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:hint="@string/location"
+                android:inputType="text"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:background="@drawable/edit_bg" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/salary"
+            android:textColor="@color/black" />
+
+        <com.warkiz.widget.IndicatorSeekBar
+            android:id="@+id/seekbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:isb_max="5000"
+            app:isb_min="0"
+            app:isb_progress="25"
+            app:isb_seek_smoothly="true"
+            app:isb_ticks_count="6"
+            app:isb_show_tick_marks_type="oval"
+            app:isb_tick_marks_size="13dp"
+            app:isb_tick_marks_drawable="@drawable/logo"
+            app:isb_show_tick_texts="true"
+            app:isb_tick_texts_size="15sp"
+            app:isb_tick_texts_color="@color/blue"
+            app:isb_thumb_color="@color/blue"
+            app:isb_thumb_size="20dp"
+            app:isb_show_indicator="rounded_rectangle"
+            app:isb_indicator_color="@color/blue"
+            app:isb_indicator_text_color="@color/colorAccent"
+            app:isb_indicator_text_size="18sp"
+            app:isb_track_background_color="@color/blue"
+            app:isb_track_background_size="2dp"
+            app:isb_track_progress_color="@color/blue"
+            app:isb_track_progress_size="4dp"
+            app:isb_only_thumb_draggable="true"/>
+
+        <TextView
+            android:id="@+id/salarytxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:textColor="@color/blue_button"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_bg"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/edit_description"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="@dimen/txt_10"
+                android:layout_marginTop="@dimen/txt_10"
+                android:layout_marginRight="@dimen/txt_10"
+                android:background="@android:color/transparent"
+                android:gravity="top"
+                android:hint="Description"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_bottom">
+
+        <TextView
+            android:id="@+id/save"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:inputType="text"
+            android:text="@string/save"
+            android:textColor="@color/colorWhite"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+</LinearLayout>

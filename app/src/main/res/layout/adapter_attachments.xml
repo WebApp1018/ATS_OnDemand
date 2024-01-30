@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="4dp"
+    android:theme="@style/WhiteCheck">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/txt_15"
+        android:layout_marginRight="@dimen/txt_10"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/txt_10"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/pdf"
+                android:tint="@color/colorRed"
+                android:visibility="gone"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:id="@+id/linear_file"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="File :"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="@dimen/txt_13"
+                        android:textStyle="bold"
+                        android:padding="5dp"
+                        android:layout_weight="3"/>
+                    <TextView
+                        android:id="@+id/txt_attachment"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Resume.pdf"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/txt_13"
+                        android:textStyle="bold"
+                        android:padding="5dp"
+                        android:layout_weight="1"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/linear_loc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Location :"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="@dimen/txt_13"
+                        android:textStyle="bold"
+                        android:padding="5dp"
+                        android:layout_weight="3"/>
+                    <TextView
+                        android:id="@+id/txt_loc"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Resume.pdf"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/txt_13"
+                        android:textStyle="bold"
+                        android:padding="5dp"
+                        android:layout_weight="1"/>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="view"
+                    android:textColor="@color/graytext"
+                    android:textSize="@dimen/txt_11"
+                    android:visibility="gone"
+                    android:textAlignment="textEnd"
+                    android:textStyle="normal" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/txt_10"
+            android:background="@color/graytext" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/txt_10"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/word"
+                android:visibility="gone"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Resume.doc"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/txt_13"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="view"
+                    android:textColor="@color/graytext"
+                    android:textSize="@dimen/txt_11"
+                    android:textStyle="normal" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

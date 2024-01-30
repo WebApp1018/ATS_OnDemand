@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical">
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/main_swiperefresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/txt_10"
+            android:layout_marginTop="@dimen/txt_10"
+            android:layout_marginRight="@dimen/txt_10"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/job_state"
+                android:textColor="@color/black"
+                android:textSize="@dimen/txt_18" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/txt_20"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="2dp"
+                        android:src="@drawable/checkcircle"
+                        android:tint="@color/colorLighBlue" />
+
+                    <TextView
+                        android:id="@+id/txtactivjobvalue"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="41,680"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/txt_20"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:textColor="@color/graytext"
+                        android:textSize="@dimen/txt_13" />
+
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/curverdrawable"
+                        android:backgroundTint="@color/colorblue"
+                        android:gravity="center"
+                        android:padding="4dp"
+                        android:text="@string/active_job"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="@dimen/txt_15" />
+
+                    <View
+                        android:layout_width="120dp"
+                        android:layout_height="0.4dp"
+                        android:layout_marginTop="@dimen/txt_20"
+                        android:background="@color/colorpastjobs" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="0.4dp"
+                    android:layout_height="100dp"
+                    android:background="@color/colorpastjobs" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/circleminus"
+                        android:tint="@color/redbutton" />
+
+                    <TextView
+                        android:id="@+id/txtinactivjobvalue"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="41,680"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/txt_20"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:textColor="@color/graytext"
+                        android:textSize="@dimen/txt_13" />
+
+                    <TextView
+                        android:layout_width="120dp"
+
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/curverdrawable"
+                        android:backgroundTint="@color/redbutton"
+                        android:gravity="center"
+                        android:padding="4dp"
+                        android:text="@string/inactive_job"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="@dimen/txt_15" />
+
+                    <View
+                        android:layout_width="120dp"
+                        android:layout_height="0.4dp"
+                        android:layout_marginTop="@dimen/txt_20"
+                        android:background="@color/colorpastjobs" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/txt_20"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/icon_user_circle"
+                        android:tint="@color/colorclosed" />
+
+                    <TextView
+                        android:id="@+id/txtclosedjobvalue"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="680"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/txt_20"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:textColor="@color/graytext"
+                        android:textSize="@dimen/txt_13" />
+
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/curverdrawable"
+                        android:backgroundTint="@color/colorclosed"
+                        android:gravity="center"
+                        android:padding="4dp"
+                        android:text="@string/closed_job"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="@dimen/txt_15" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="0.4dp"
+                    android:layout_height="100dp"
+                    android:background="@color/colorpastjobs" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/icon_time"
+                        android:tint="@color/colorpastjobs" />
+
+                    <TextView
+                        android:id="@+id/txtpotentialvalue"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="1,080"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/txt_20"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:textColor="@color/graytext"
+                        android:textSize="@dimen/txt_13" />
+
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/curverdrawable"
+                        android:backgroundTint="@color/colorpastjobs"
+                        android:gravity="center"
+                        android:padding="4dp"
+                        android:text="@string/potential"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="@dimen/txt_15" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/txt_20"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/saved_icon"
+                        android:tint="@color/colorpink" />
+
+                    <TextView
+                        android:id="@+id/txtsavedvalue"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="1,080"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/txt_20"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:textColor="@color/graytext"
+                        android:textSize="@dimen/txt_13" />
+
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/curverdrawable"
+                        android:backgroundTint="@color/colorpink"
+                        android:gravity="center"
+                        android:padding="4dp"
+                        android:text="@string/savedjobs"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="@dimen/txt_15" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@color/bg_color" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorWhite"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/txt_20"
+                    android:layout_marginBottom="@dimen/txt_10"
+                    android:gravity="center"
+                    android:text="@string/job_chart"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ListView
+                    android:id="@+id/list_jobchart"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:divider="@null"
+                    android:listSelector="@color/transparent"
+                    android:layout_margin="10dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+</LinearLayout>

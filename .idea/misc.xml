@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Projects/New folder/android/app/src/main/res/layout/activity_assignjob.xml" value="0.25416666666666665" />
+        <entry key="..\:/Projects/New folder/android/app/src/main/res/layout/activity_candidate_detail.xml" value="0.25416666666666665" />
+        <entry key="..\:/Projects/New folder/android/app/src/main/res/layout/activity_create_job.xml" value="0.15520833333333334" />
+        <entry key="..\:/Projects/New folder/android/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/Projects/New folder/android/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Projects/New folder/android/app/src/main/res/layout/activity_main_left_drawer_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Projects/New folder/android/app/src/main/res/layout/activity_welcome.xml" value="0.25416666666666665" />
+        <entry key="..\:/Projects/New folder/android/app/src/main/res/layout/adapter_candidates.xml" value="0.264" />
+        <entry key="..\:/Projects/New folder/android/app/src/main/res/layout/createjob_step1.xml" value="0.536" />
+        <entry key="..\:/Projects/New folder/android/app/src/main/res/layout/header_back.xml" value="0.25416666666666665" />
+        <entry key="..\:/Projects/New folder/android/app/src/main/res/layout/header_back_two.xml" value="0.25416666666666665" />
+        <entry key="..\:/Projects/New folder/android/app/src/main/res/layout/nav_header_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Projects/New folder/android/app/src/main/res/layout/notification_setting_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Projects/New folder/android/app/src/main/res/layout/question_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Projects/New folder/android/app/src/main/res/layout/schedule_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Projects/New folder/android/app/src/main/res/layout/schedule_view_header_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Projects/New folder/android/app/src/main/res/layout/scorecard_comment_dialog.xml" value="0.264" />
+        <entry key="..\:/Projects/New folder/android/app/src/main/res/layout/search_dialog.xml" value="0.25416666666666665" />
+        <entry key="..\:/Projects/New folder/android/app/src/main/res/layout/slider_layout_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Projects/New folder/android/app/src/main/res/menu/main.xml" value="0.15520833333333334" />
+        <entry key="app/src/main/res/layout/activity_assignjob.xml" value="0.18490374873353596" />
+        <entry key="app/src/main/res/layout/activity_eeoactivity.xml" value="0.18490374873353596" />
+        <entry key="app/src/main/res/layout/activity_questions.xml" value="0.18490374873353596" />
+        <entry key="app/src/main/res/layout/adapter_email.xml" value="0.17962962962962964" />
+        <entry key="app/src/main/res/layout/adapter_quiknotes.xml" value="0.18490374873353596" />
+        <entry key="app/src/main/res/layout/dialog_addnote.xml" value="0.14814814814814814" />
+        <entry key="app/src/main/res/layout/fragment_reference.xml" value="0.17962962962962964" />
+        <entry key="app/src/main/res/layout/job_item_update.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/slider_layout_item.xml" value="0.13601823708206687" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
